@@ -10,7 +10,7 @@
     "lint": "eslint **/*.ts --cache",
     "format": "prettier --write **/*.ts",
     "format-check": "prettier --check **/*.ts",
-    "release": "ncc build -o dist/restore src/restore.ts && ncc build -o dist/save src/save.ts && git add -f dist/"
+    "release": "ncc build -o dist/check src/check.ts && ncc build -o dist/restore src/restore.ts && ncc build -o dist/save src/save.ts && git add -f dist/"
   },
   "repository": {
     "type": "git",
